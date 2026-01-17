@@ -1,15 +1,15 @@
 {
     "manifest_version": 3,
     "name": "에이블리 구매중 오름차순 정렬",
-    "description": "에이블리 상품 목록을 구매중 기준으로 오름차순 정렬합니다",
     "version": "1.0.0",
+    "description": "에이블리 상품을 구매중 기준으로 오름차순 정렬합니다",
     "permissions": [
         "activeTab"
     ],
     "content_scripts": [
         {
             "matches": [
-                "https://mobile.a-bly.com/*"
+                "https://mobile.a-bly.com/screens*"
             ],
             "js": [
                 "content.js"
